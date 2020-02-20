@@ -18,6 +18,24 @@ main{
     overflow: hidden;
 }
 
+#seta{    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 2em;
+    right: 15px;
+}
+#seta img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 2em;
+    right: 15px;
+}
+
 /* estilo do topo e menu */
 header{
     background-color: #7CABBF ;

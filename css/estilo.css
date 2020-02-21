@@ -14,26 +14,21 @@ body{
 main{
     width: 100%;
     max-width: 1600px;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 0 auto;    
 }
 
 #seta{    
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: fixed;
-    bottom: 2em;
-    right: 15px;
-}
-#seta img{
-    
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    position: fixed;
+    position: fixed;       
     bottom: 2em;
-    right: 15px;
+    right: 2em;
+    overflow: hidden;
+}
+#seta img{    
+    width: 60px;
+    height: 60px;    
 }
 
 /* estilo do topo e menu */

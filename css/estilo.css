@@ -107,6 +107,8 @@ h2{
 }
 
 .sobre > img {
+    height: 100%;
+    width: 20%;
     float: left;
     margin-right: 15px;
     overflow: hidden;   
@@ -117,7 +119,7 @@ h2{
     background-color: #537280;
     border-radius: 50px;
     float: left;
-    width: 58%;
+    width: 59%;
     height: 100px;
 }
 

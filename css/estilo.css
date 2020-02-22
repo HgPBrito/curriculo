@@ -99,14 +99,32 @@ h2{
 /* seção sobre */
 
 .sobre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
     background-color: #005C85;
     border-radius: 50px 50px 0 0;
-    padding: 1em;
-    width: 100%;
+    padding: 1em;    
     overflow: hidden;
 }
 
-.sobre > img {
+.item{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    flex-flow: row wrap;        
+    writing-mode: horizontal-rl;
+}
+.teste{
+    display: flex;
+    flex-direction: column;
+}
+.item:nth-child(1){
+    order: 1;
+    flex: 0 1 auto;
     height: 100%;
     width: 20%;
     float: left;
@@ -114,6 +132,11 @@ h2{
     overflow: hidden;   
     border-radius: 50px; 
 }
+.item:nth-child(2){
+    order: 2;
+    flex: 1 1 auto;    
+}
+
 
 #nome{
     background-color: #537280;
@@ -122,12 +145,12 @@ h2{
     width: 59%;
     height: 100px;
 }
-
+/*
 .sobre > p{
     text-indent: 50px;
     padding-top: 7.5em;
     text-align: justify; 
-}
+} */
 
 /* seção trabalhos */
 

@@ -1,110 +1,219 @@
 <!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HgPBrito</title>
-    <link rel="shortcut icon" href="./img/perfil.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-    <main id="main">
-        <!-- Área de Topo - logotipo e Menu -->
-        <nav id="seta">
-            <a href="#main"><img src="./img/seta.png" alt="seta para cima"></a>
-        </nav>
-        <header>
-            <img src="./img/logo-topo2.png" alt="Currículo">
-            <nav>
-                <ul type="circle">
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#work">Trabalhos</a></li>
-                    <li><a href="#contact">Contato</a></li>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>HgPBrito</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">HgPBrito</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/perfil.jpeg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiências</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educação</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intereses</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Prêmios e Certificações</a></li>
                 </ul>
-            </nav>
-        </header>
-
-        <!-- Área de conteúdo -->
-        <section class="sobre" id="about">
-            <img src="./img/perfil.jpeg" alt="Sobre" class="item" id="img">
-            <div class="item teste">
-                <div id="nome">
-                    <h1>Hugo Brito</h1>
-                    <h2>DEV Front-End</h2>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Hugo
+                        <span class="text-primary">Brito</span>
+                    </h1>
+                    <div class="social-icons subheading mb-5">
+                        <a class="social-icon" href="https://www.linkedin.com/in/hgpbrito/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/HgPBrito" target="_blank"><i class="fab fa-github"></i></a>   
+                        <span class="text-primary">hgbrito.tr@email.com</span>
+                    </div>
+                    <p class="lead mb-5"> 
+                        Sou um nerd que se encontrou na área da tecnologia e desenvolvimento, desde então amo o que faço, e nas horas de lazer gosto de estar com a família e jogar uma boa aventura de RPG de mesa. Disposto a aprender, ajudar e ensinar o que sabe.
+                        Participei bootcamp de Desenvolvimento Java Web FullStack da Generation Brasil, todo dia é dia de xp e subir de level!
+                    </p>                
+                    <div class="social-icons subheading mb-2">
+                        <a><i class="far fa-hand-spock"></i></a>
+                        <a>"Vida longa e prospera!"</a>
+                    </div>                   
                 </div>
-                <p>O HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de marcação para a World Wide Web e é uma
-                    tecnologia chave da Internet, originalmente proposto por Opera Software.[1] É a quinta versão da
-                    linguagem
-                    HTML. Esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no mundo da Web,
-                    através de
-                    novas funcionalidades como semântica e acessibilidade. Possibilita o uso de novos recursos antes
-                    possíveis
-                    apenas com a aplicação de outras tecnologias. Sua essência tem sido melhorar a linguagem com o suporte
-                    para
-                    as mais recentes multimídias, enquanto a mantém facilmente legível por seres humanos e consistentemente
-                    compreendida por computadores e outros dispositivos (navegadores, parsers etc). O HTML5 será o novo
-                    padrão
-                    para HTML, XHTML, e HTML DOM. Atualmente, está em fase de esboço, porém diversos navegadores já
-                    implementam
-                    algumas de suas funcionalidades.Após seus predecessores imediatos HTML 4.01 e XHTML 1.1, HTML5 é uma
-                    resposta à observação de que o HTML e o XHTML, de uso comum na World Wide Web, é uma mistura de
-                    características introduzidas por várias especificações, juntamente com aquelas introduzidas por
-                    software, tais como os navegadores, aqueles estabelecidos pela prática comum, e os muitos erros de
-                    sintaxe em documentos existentes na web.
-                </p>
-            </div>
-        </section>
-
-        <!-- Área de conteúdo Trabalhos -->
-        <section class="trabalhos" id="work">
-            <h1>Trabalhos e Projetos</h1>
-            <article class="sites">
-                <h2>Sites</h2>
-                <img src="img/sites.png" alt="Sites">
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram
-                    sadipscing
-                    et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa
-                    arma uma pindureta.</p>
-            </article>
-            <article class="sistemas">
-                <h2>Sistemas</h2>
-                <img src="img/sistemas.png" alt="Sistemas">
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram
-                    sadipscing
-                    et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa
-                    arma uma pindureta.</p>
-            </article>
-            <article class="projetos">
-                <h2>Projetos</h2>
-                <img src="img/projetos.png" alt="Projetos">
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram
-                    sadipscing
-                    et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa
-                    arma uma pindureta.</p>
-            </article>
-        </section>
-
-        <div class="contatos" id="contact">
-            <div id="contato">
-                <h1>À disposição<br>Aguardo seu contato!</h1>
-                <p>@hgpbrito <br>(11)96811-8635 <br> hgbrito.tr@gmail.com</p>
-            </div>
-            <div id="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1242819856398!2d-46.69399738441565!3d-23.5280319662489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1582052071502!5m2!1spt-BR!2sbr"
-                    allowfullscreen="">
-                </iframe>
-            </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experiências</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Analista de desenvolvimento de sistemas</h3>
+                            <div class="subheading mb-3">TRISCAL Consultoria e Tecnologia LTDA.</div>
+                            <p>Desenvolvimento Salesforce. Utilizando também métodologias àgeis como Scrum com Dailys, Kanban com o Trello, e com forte pensamento em TDD.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Setembro 2020 - Presente</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Desenvolvedor Web Jr. (FullStack)</h3>
+                            <div class="subheading mb-3">Generation Brasil - Sustenta Mais</div>
+                            <p>Bootcamp realizado pela Generation Brasil, com foco em Desenvolvimento Java Web FullStack, separados em equipes criamos um projeto totalmente do zero utilizando para o Front-and: (VS Code, Angular, HTML5, CSS3, JavaScript, TypeScript, Bootstrap e Font Awesome), para o Back-and: (Eclipse, Java, SpringBoot e Node.js), para o Banco de Dados: (SQL, MySQL e MySQL Workbench) mais nossas softs Skils e metodologias ágeis como Scrum e Kaban.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Fevereiro 2020 - Julho 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">"Piscineiro"</h3>
+                            <div class="subheading mb-3">42 São Paulo (Piscina)</div>
+                            <p> A piscina é um treinamento presencial e imersivo de 26 dias no Campus da Vila Madalena, que introduz ao método de aprendizagem. A dedicação é super intensa, não sendo possível conciliar com outras atividades. .</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Setembro 2019 - Outubro 2019</span></div>
+                    </div>                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Educação</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Generation Brasil</h3>
+                            <div class="subheading mb-3">Bootcamp de Desenvolvimento Java Web FullStack</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Fevereiro 2020 - Julho 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">42 São Paulo</h3>
+                            <div class="subheading mb-3">Piscina - 26 dias imerso em como aprender a aprender a desenvolver.</div>                            
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Setembro 2019 - Outubro 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
-
-
-        <footer>
-            <img src="img/logo-senac.png" alt="Logotipo do Senac">
-        </footer>
-    </main>
-</body>
-
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

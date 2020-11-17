@@ -10526,7 +10526,7 @@ section.resume-section .resume-section-content {
 /* imagem CertificadoGeneration no modal  */
 .certGeneration {
   border: solid 2px #000000;
-  background-image: url("/assets/img/certificados/certificadoGeneration.png");
+  background-image: url("assets/img/certificados/certificadoGeneration.png");
   min-height: 100px;
   min-width: 150px;
   background-position: center;
@@ -10536,7 +10536,7 @@ section.resume-section .resume-section-content {
 /* imagem CertificadoSCRUM no modal  */
 .certSCRUM {
   border: solid 2px #000000;
-  background-image: url("/assets/img/certificados/certificadoSCRUM.png");
+  background-image: url("assets/img/certificados/certificadoSCRUM.png");
   min-height: 100px;
   min-width: 150px;
   background-position: center;
@@ -10546,7 +10546,7 @@ section.resume-section .resume-section-content {
 /* imagem CertificadoAluraLogica no modal  */
 .certAluraLogica {
   border: solid 2px #000000;
-  background-image: url("/assets/img/certificados/certificadoAluraLogica.png");
+  background-image: url("assets/img/certificados/certificadoAluraLogica.png");
   min-height: 100px;
   min-width: 150px;
   background-position: center;
@@ -10556,7 +10556,7 @@ section.resume-section .resume-section-content {
 /* imagem CertificadoAluraHTTP no modal  */
 .certAluraHTTP {
   border: solid 2px #000000;
-  background-image: url("/assets/img/certificados/certificadoAluraHTTP.png");
+  background-image: url("assets/img/certificados/certificadoAluraHTTP.png");
   min-height: 100px;
   min-width: 150px;
   background-position: center;

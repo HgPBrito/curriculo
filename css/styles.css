@@ -10523,46 +10523,7 @@ section.resume-section .resume-section-content {
   font-weight: 900;
   box-shadow: none !important;
 }
-/* imagem CertificadoGeneration no modal  */
-.certGeneration {
-  border: solid 2px #000000;
-  background-image: url("assets/img/certificados/certificadoGeneration.png");
-  min-height: 100px;
-  min-width: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 140px 90px;
-}
-/* imagem CertificadoSCRUM no modal  */
-.certSCRUM {
-  border: solid 2px #000000;
-  background-image: url("assets/img/certificados/certificadoSCRUM.png");
-  min-height: 100px;
-  min-width: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 140px 90px;
-}
-/* imagem CertificadoAluraLogica no modal  */
-.certAluraLogica {
-  border: solid 2px #000000;
-  background-image: url("assets/img/certificados/certificadoAluraLogica.png");
-  min-height: 100px;
-  min-width: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 140px 90px;
-}
-/* imagem CertificadoAluraHTTP no modal  */
-.certAluraHTTP {
-  border: solid 2px #000000;
-  background-image: url("assets/img/certificados/certificadoAluraHTTP.png");
-  min-height: 100px;
-  min-width: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 140px 90px;
-}
+
 /* maozinha do cursor ao passar nos links  */
 a {
   cursor: pointer;
